@@ -1,0 +1,60 @@
+/* Universal styling for input placeholders */
+input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.label {
+    font-weight: bold;
+    color: #4e9f97;
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+/* Enhanced styling for inputs */
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1.1rem;
+}
+
+/* Enhanced button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Enhanced navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}

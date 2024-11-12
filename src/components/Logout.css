@@ -1,0 +1,35 @@
+.logout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+  background-color: #f8f9fa; /* Light background */
+  padding: 20px;
+}
+
+.logout-message {
+  color: #4c6daf;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.logout-link {
+  color: #4c6daf;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #4c6daf;
+  border-radius: 5px;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.logout-link:hover {
+  background-color: #4c6daf;
+  color: #ffffff;
+  border-color: #4c6daf;
+}
